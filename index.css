@@ -1,0 +1,97 @@
+.row {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+.column {
+    width: 25%;
+    float: left;
+}
+
+.column button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+body {
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    margin: 0px;
+}
+
+#backButton {
+    background-color: darksalmon;
+}
+
+button {
+    background-color: #3498DB;
+    color: white;
+    padding: 12px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#theologyButton {
+    background-color: black;
+    font-size: 28px;
+    color: green;
+    border: 1px;
+    border-color: whitesmoke;
+    border-style: dashed;
+}
+
+#ethicsButton {
+    background-color: black;
+    font-size: 28px;
+    color: orange;
+    border: 1px;
+    border-color: whitesmoke;
+    border-style: dashed;
+}
+
+#metaphysicsButton {
+    background-color: black;
+    font-size: 28px;
+    color: purple;
+    border: 1px;
+    border-color: whitesmoke;
+    border-style: dashed;
+}
+
+#politicsButton {
+    background-color: black;
+    font-size: 28px;
+    color: red;
+    border: 1px;
+    border-color: whitesmoke;
+    border-style: dashed;
+}
+
+#topicsTitle {
+    text-align: center;
+}
+
+#theologyTopics {
+    display: none;
+}
+
+#ethicsTopics {
+    display: none;
+}
+
+#metaphysicsTopics {
+    display: none;
+}
+
+#politicsTopics {
+    display: none;
+}
